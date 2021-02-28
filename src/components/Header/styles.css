@@ -1,9 +1,14 @@
 .header {
   height: 6rem;
   background-color: #eee;
+  padding: 2rem auto;
 }
 
 .header h3 {
   max-width: 1450px;
   margin: 0 auto;
+  text-align: left;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
