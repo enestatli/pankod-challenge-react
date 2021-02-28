@@ -1,6 +1,8 @@
 //TODO: do not forget "lint": "eslint --fix src/**/*.{js,jsx,ts,tsx}"
 import { Route, Switch } from 'react-router-dom';
 
+import './default.css';
+
 import MainLayout from './layouts/MainLayout';
 import { Error, Home, Movies, Series } from './pages';
 
