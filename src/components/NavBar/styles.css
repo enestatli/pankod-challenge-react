@@ -1,0 +1,18 @@
+.container {
+  /* align-items: center; */
+  height: 6rem;
+  background-color: #017efe;
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1450px;
+  margin: 0 auto;
+}
+
+.right {
+  /* width: 16rem; */
+  display: flex;
+  justify-content: space-between;
+}

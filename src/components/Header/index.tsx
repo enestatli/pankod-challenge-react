@@ -1,10 +1,10 @@
-interface Props {}
+import './styles.css';
 
-const Header = (props: Props) => {
+const Header = () => {
   return (
-    <div>
+    <header className="header">
       <h3>Popular Titles</h3>
-    </div>
+    </header>
   );
 };
 

@@ -1,11 +1,18 @@
+import './styles.css';
+
 const NavBar = () => {
   return (
-    <div>
-      <h1>Demo Streaming</h1>
-      <ul>
-        <li>Login</li>
-        <li>Start your free trail</li>
-      </ul>
+    <div className="container">
+      <div className="wrap">
+        <div className="left">
+          <h2>Demo Streaming</h2>
+        </div>
+
+        <ul className="right">
+          <li>Login</li>
+          <li>Start your free trail</li>
+        </ul>
+      </div>
     </div>
   );
 };

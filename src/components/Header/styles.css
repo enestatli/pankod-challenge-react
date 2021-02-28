@@ -1,0 +1,9 @@
+.header {
+  height: 6rem;
+  background-color: #eee;
+}
+
+.header h3 {
+  max-width: 1450px;
+  margin: 0 auto;
+}
