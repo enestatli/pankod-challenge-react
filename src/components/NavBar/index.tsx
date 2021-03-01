@@ -1,26 +1,20 @@
+import { Link } from 'react-router-dom';
 import './styles.css';
 
 const NavBar = () => {
   return (
-    <div className="navbar">
-      <div className="wrap">
-        <div className="left">
+    <nav className="navbar">
+      <div className="frame limit-width">
+        <Link to="/">
           <h1>DEMO Streaming</h1>
-        </div>
-
-        <div className="right">
-          <ul className="right">
-            <li>
-              <button>Log in</button>
-            </li>
-            <li>
-              <button>Start your free trail</button>
-            </li>
-          </ul>
+        </Link>
+        <div className="navbar-btn">
+          <button className="navbar-btn-login">Log in</button>
+          <button className="navbar-btn-cta">Start your free trail</button>
         </div>
       </div>
-    </div>
+    </nav>
   );
 };
 
-export default NavBar;
+export { NavBar };
