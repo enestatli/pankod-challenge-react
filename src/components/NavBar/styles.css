@@ -1,26 +1,76 @@
 .navbar {
-  /* align-items: center; */
-  height: 6rem;
-  background-color: #017efe;
+  height: 3.75rem;
+  background: #0098ff; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #0098ff 0%,
+    #006aff 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #0098ff 0%,
+    #006aff 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #0098ff 0%,
+    #006aff 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0098ff', endColorstr='#006aff',GradientType=0 ); /* IE6-9 */
 }
 
-.navbar .wrap {
+.navbar .frame {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1450px;
   height: 100%;
   margin: 0 auto;
 }
 
-.navbar .left h1 {
-  padding: 0;
-  margin: 0;
-}
-
-.navbar .right ul {
-  /* width: 16rem; */
+.navbar .frame .navbar-btn {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.navbar .frame h1 {
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.navbar .frame .navbar-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.825rem;
+}
+
+.navbar .frame .navbar-btn-login {
+  border: none;
+  color: white;
+  background-color: transparent;
+}
+
+.navbar .frame .navbar-btn-cta {
+  color: white;
+  border: none;
+  background-color: #424242;
+  margin-left: 10px;
+  padding: 4px 5px;
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar .frame h1 {
+    font-size: 2rem;
+  }
+
+  .navbar .frame .navbar-btn-cta {
+    width: 150px;
+    height: 40px;
+    margin-left: 20px;
+  }
+
 }
