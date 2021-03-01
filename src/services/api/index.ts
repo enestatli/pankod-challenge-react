@@ -1,14 +1,12 @@
 import { IMedia } from '../../interfaces';
 
-//TODO:
-// interface IFetchDataReturn {
-//   entries: IMedia[];
-//   total: number;
-// }
-
+interface IFetchDataReturn {
+  entries: IMedia[];
+  total: number;
+}
 const apiService = {
-  fetchData: async (): Promise<any> => {
-    let data: any = {};
+  fetchData: async (): Promise<IFetchDataReturn> => {
+    let data;
     try {
       const res = await fetch('http://localhost:3000/data.json');
       data = await res.json();

@@ -8,6 +8,7 @@ const callFetch = async (callback: (data: IMedia[]) => {}) => {
   }
 
   callback(res.entries);
+  return;
 };
 
 export { callFetch };
