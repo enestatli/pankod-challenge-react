@@ -1,13 +1,11 @@
-import { CardList } from '../../components/CardList';
+import { Thumbnail } from "../../components";
+import "./styles.css";
 
-import './styles.css';
-
-interface Props {}
-
-const Home = (props: Props) => {
+const Home = () => {
   return (
-    <div className="homepage">
-      <CardList />
+    <div className="homepage limit-width">
+      <Thumbnail title="Movies" url="movies" />
+      <Thumbnail title="Series" url="series" />
     </div>
   );
 };

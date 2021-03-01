@@ -1,10 +1,17 @@
-interface Props {}
+import React from 'react';
+import { MovieListContainer } from '../../components';
 
-const Movies = (props: Props) => {
+import './styles.css';
+
+const Movies = () => {
   return (
-    <div>
-      <p>Movies Page</p>
-    </div>
+    <section className="movies limit-width">
+      {/* <SearchBar /> */}
+      {/* <Filter /> */}
+      {/* @ts-ignore */}
+      {/* <MovieList /> */}
+      <MovieListContainer />
+    </section>
   );
 };
 

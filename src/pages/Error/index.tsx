@@ -1,10 +1,12 @@
-interface Props {}
+import { ErrorC } from '../../components';
 
-const Error = (props: Props) => {
+import './styles.css';
+
+const Error = () => {
   return (
-    <div>
-      <p>Error Page</p>
-    </div>
+    <section className="error limit-width">
+      <ErrorC />
+    </section>
   );
 };
 

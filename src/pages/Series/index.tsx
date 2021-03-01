@@ -1,9 +1,14 @@
-interface Props {}
+import { SeriesList } from '../../components';
 
-const Series = (props: Props) => {
+import './styles.css';
+
+const Series = () => {
   return (
     <div>
-      <p>Series Page</p>
+      {/* <InputBar /> */}
+      <section className="series limit-width">
+        <SeriesList />
+      </section>
     </div>
   );
 };
