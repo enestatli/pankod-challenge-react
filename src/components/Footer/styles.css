@@ -1,70 +1,77 @@
 .footer {
-  height: 21.8rem;
-  padding: 4.2rem 1rem;
   background-color: #1e1e1e;
-  width: 100%;
+  padding: 41px 0;
 }
 
-.wrapper {
+.footer-top li a {
+  color: #babfc3;
+  font-size: 0.813rem;
+  display: block;
+  padding: 3px 0;
+  margin-bottom: 6px;
+}
+
+.footer-copy {
+  color: #babfc3;
+  font-size: 0.75rem;
+}
+
+.footer-bottom {
+  padding-top: 34px;
+}
+
+.footer-bottom-left {
   display: flex;
-  flex-direction: column;
-  max-width: 1450px;
-  margin: 0 auto;
-
-  /* justify-content: space-between; */
-}
-
-.firstRow {
-  margin-bottom: 6rem;
-}
-
-.firstRow ul {
-  display: flex;
-}
-
-.firstRow ul li {
-  margin-right: 2rem;
-  font-size: 1.3rem;
-}
-
-.firstRow p {
-  color: #fff;
-  /* line-height: 0.01rem */
-}
-
-.secondRow {
-  display: flex;
+  width: 121px;
   justify-content: space-between;
   align-items: center;
 }
 
-.secondRow .left ul {
-  display: flex;
-
-  /* background-color: red; */
-  /* width: 500px; */
+.footer-top a:hover {
+  text-decoration: underline !important;
 }
 
-.secondRow .right ul {
-  display: flex;
+.footer-bottom-right {
+  margin-top: 14px;
 }
 
-.secondRow .left ul li {
-  height: 3rem;
-  margin-right: 2.5rem;
-}
-.secondRow .left ul li img {
-  height: 100%;
+.footer-bottom-right a {
+  display: block;
+  margin: 4px 0;
 }
 
-.secondRow .right ul li img {
-  height: 4rem;
-  margin-left: 2.1rem;
-  border-radius: 4;
-}
+@media only screen and (min-width: 768px) {
+  ul.footer-top {
+    display: flex;
+    justify-content: space-between;
+    max-width: 666px;
+  }
 
-/* .secondRow .right ul li img {
-  height: '100%';
-  width: '100%';
-  border-radius: 0.4rem;
-} */
+  .footer-top li a {
+    border-left: 1px solid;
+    padding: 0 0 0 11px;
+  }
+
+  .footer-top li:first-child a {
+    padding-left: 0;
+    border-left: none;
+  }
+
+  .footer-bottom-right a {
+    margin: 0 0 0 20px;
+  }
+
+  .footer-bottom-right {
+    margin-top: 0;
+  }
+
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-bottom-right {
+    padding-top: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+}

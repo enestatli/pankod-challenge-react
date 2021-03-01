@@ -1,0 +1,9 @@
+.loading {
+  padding-top: 2rem;
+}
+
+.loading p {
+  line-height: 0;
+  font-size: 1rem;
+  color: #414141;
+}
