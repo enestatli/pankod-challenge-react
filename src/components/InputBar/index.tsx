@@ -1,6 +1,5 @@
-import { Filter } from '../Filter';
-import { SearchBar } from '../SearchBar';
-
+import { Filter } from './Filter';
+import { SearchBar } from './SearchBar';
 import './styles.css';
 
 const InputBar = () => (

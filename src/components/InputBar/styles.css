@@ -1,7 +1,16 @@
 .input-bar {
-  height: 3.75rem;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: red;
+  flex-direction: column;
+  /* TODO:fix width and padding */
+  /* width: 100%; */
+  /* padding: 0 10px; */
+}
+
+@media only screen and (min-width: 420px) {
+  .input-bar {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 22px;
+    margin-bottom: 1px;
+  }
 }
