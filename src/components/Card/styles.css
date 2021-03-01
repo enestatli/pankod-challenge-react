@@ -1,0 +1,22 @@
+.card {
+  display: block;
+  margin-top: 1.938rem;
+  width: 8.563rem;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card-p {
+  font-size: 0.813rem;
+  color: #1e1e1e;
+  padding: 9px 0 0 1px;
+  line-height: 0;
+}
+
+/* @media only screen and (min-width: 420px) {
+  .card {
+    margin-right: 11px;
+  }
+} */
