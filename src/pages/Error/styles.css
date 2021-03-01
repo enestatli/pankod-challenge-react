@@ -1,0 +1,8 @@
+.error {
+  min-height: calc(100vh - 337px);
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding-bottom: 62px;
+  padding-top: 2rem;
+}

@@ -1,0 +1,13 @@
+.series {
+  min-height: calc(100vh - 337px);
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-bottom: 62px;
+}
+
+@media only screen and (min-width: 420px) {
+  .series {
+    justify-content: space-between;
+  }
+}

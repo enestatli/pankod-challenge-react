@@ -1,0 +1,40 @@
+.thumbnail {
+  display: block;
+  margin-top: 1.938rem;
+  width: 8.563rem;
+  margin-right: 0.688rem;
+}
+
+.thumbnail .frame {
+  height: 201px;
+  background: #1e1e1e;
+  position: relative;
+}
+
+.thumbnail .frame img {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.thumbnail .frame h3 {
+  position: absolute;
+  z-index: 2;
+  margin-top: 0;
+  color: #fdfdfd;
+  text-transform: uppercase;
+  font-size: 1.688rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.thumbnail-p {
+  font-size: 0.813rem;
+  color: #1e1e1e;
+  padding: 9px 0 0 1px;
+  line-height: 0;
+}

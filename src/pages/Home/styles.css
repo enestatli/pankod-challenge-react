@@ -1,0 +1,23 @@
+/* .homepage {
+  min-height: calc(100vh - 337px);
+  display: flex;
+  justify-content: flex-start;
+}
+
+.homepage:first-child .thumbnail {
+  margin-right: 0.688rem;
+} */
+
+.homepage {
+  min-height: calc(100vh - 337px);
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-bottom: 62px;
+}
+
+@media only screen and (min-width: 420px) {
+  .homepage {
+    justify-content: flex-start;
+  }
+}
