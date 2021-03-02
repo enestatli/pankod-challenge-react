@@ -1,3 +1,28 @@
+# pankod-challenge-react
+
+<img src="https://raw.githubusercontent.com/pankod/frontend-challenge/master/screenshots/home.png">
+
+> React Movie/Series search app tasked by Pankod
+
+## Technologies
+
+- [x] <b>Typescript</b> - Language
+- [x] <b>React</b> - Framework
+
+## Pre install
+
+Make sure:
+
+- You have the latest stable or LTS version of `node.js` installed.
+
+## Start developing
+
+1. `git clone https://github.com/enestatli/react-native-news-app.git`
+2. Go inside the project directory `cd react-native-news-app/`
+3. Install the necessary dependencies `npm install`
+4. Build and start dev server with `npx react-native run-android`
+5. Start `npm start`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
