@@ -1,0 +1,29 @@
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.pagination button {
+  user-select: none;
+  background: #fff;
+  border: 1px solid #a0aec0;
+  font-size: 20px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  color: #cbd5e0;
+}
+
+.active {
+  font-weight: bold;
+  background: #e2e8f0;
+}
+
+@media only screen and (min-width: 420px) {
+  .pagination-container {
+    margin-bottom: 20px;
+  }
+}
