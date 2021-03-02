@@ -1,4 +1,3 @@
-//TODO: do not forget "lint": "eslint --fix src/**/*.{js,jsx,ts,tsx}"
 import { Route, Switch } from 'react-router-dom';
 
 import './styles/global.css';

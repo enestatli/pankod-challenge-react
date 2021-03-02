@@ -1,7 +1,6 @@
 import { IMedia } from '../interfaces';
 import { apiService } from '../services';
 
-//TODO: make it hook
 const callFetch = async (
   callback: (data: IMedia[] | undefined | any) => {}
 ) => {

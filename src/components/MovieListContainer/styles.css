@@ -8,7 +8,6 @@
 
 @media only screen and (min-width: 420px) {
   .movie-list {
-    /* TODO: space-between or start */
     justify-content: space-between;
   }
 }
