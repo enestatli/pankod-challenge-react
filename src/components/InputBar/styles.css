@@ -1,9 +1,6 @@
 .input-bar {
   display: flex;
   flex-direction: column;
-  /* TODO:fix width and padding */
-  /* width: 100%; */
-  /* padding: 0 10px; */
 }
 
 @media only screen and (min-width: 420px) {
