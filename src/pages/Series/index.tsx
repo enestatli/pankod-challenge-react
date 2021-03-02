@@ -1,15 +1,12 @@
-import { SeriesList } from '../../components';
+import { SeriesListContainer } from '../../components';
 
 import './styles.css';
 
 const Series = () => {
   return (
-    <div>
-      {/* <InputBar /> */}
-      <section className="series limit-width">
-        <SeriesList />
-      </section>
-    </div>
+    <section className="limit-width">
+      <SeriesListContainer />
+    </section>
   );
 };
 

@@ -3,5 +3,6 @@ export const actionConsts = {
     SET: 'MEDIA_SET',
     SEARCH: 'MEDIA_SEARCH',
     FILTER: 'MEDIA_FILTER',
+    LOADING: 'LOADING',
   },
 };

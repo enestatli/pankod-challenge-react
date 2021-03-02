@@ -5,11 +5,7 @@ import './styles.css';
 
 const Movies = () => {
   return (
-    <section className="movies limit-width">
-      {/* <SearchBar /> */}
-      {/* <Filter /> */}
-      {/* @ts-ignore */}
-      {/* <MovieList /> */}
+    <section className="limit-width">
       <MovieListContainer />
     </section>
   );

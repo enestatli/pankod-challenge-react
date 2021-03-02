@@ -5,7 +5,6 @@ const MainLayout = ({ children }: any) => {
     <div>
       <NavBar />
       <Header />
-
       <div className="main">{children}</div>
       <Footer />
     </div>
