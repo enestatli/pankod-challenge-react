@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/pankod-challenge-react/static/css/main.66398f0b.chunk.css",
+    "main.js": "/pankod-challenge-react/static/js/main.d37dda28.chunk.js",
+    "main.js.map": "/pankod-challenge-react/static/js/main.d37dda28.chunk.js.map",
+    "runtime-main.js": "/pankod-challenge-react/static/js/runtime-main.915524e6.js",
+    "runtime-main.js.map": "/pankod-challenge-react/static/js/runtime-main.915524e6.js.map",
+    "static/js/2.8d87f502.chunk.js": "/pankod-challenge-react/static/js/2.8d87f502.chunk.js",
+    "static/js/2.8d87f502.chunk.js.map": "/pankod-challenge-react/static/js/2.8d87f502.chunk.js.map",
+    "static/js/3.5f40539d.chunk.js": "/pankod-challenge-react/static/js/3.5f40539d.chunk.js",
+    "static/js/3.5f40539d.chunk.js.map": "/pankod-challenge-react/static/js/3.5f40539d.chunk.js.map",
+    "index.html": "/pankod-challenge-react/index.html",
+    "static/css/main.66398f0b.chunk.css.map": "/pankod-challenge-react/static/css/main.66398f0b.chunk.css.map",
+    "static/js/2.8d87f502.chunk.js.LICENSE.txt": "/pankod-challenge-react/static/js/2.8d87f502.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.915524e6.js",
+    "static/js/2.8d87f502.chunk.js",
+    "static/css/main.66398f0b.chunk.css",
+    "static/js/main.d37dda28.chunk.js"
+  ]
+}
