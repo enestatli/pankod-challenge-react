@@ -5,20 +5,17 @@ import { IContext, IMedia } from '../../interfaces';
 import mediaReducer from './reducer';
 import { actionConsts } from '../../definitions';
 
-interface IProps {
-  children: JSX.Element[];
-}
-
 export const MediaContext = createContext<IContext>({
   ...MEDIA_INITIAL_STATE,
   setMedia: () => {},
   searchMedia: () => {},
   filterByDateAndTitle: () => {},
+  loadMedia: () => {},
 });
 
-export const MediaProvider: React.FC<IProps> = ({ children }) => {
+export const MediaProvider = ({ children }: any) => {
   const [state, dispatch] = useReducer(mediaReducer, MEDIA_INITIAL_STATE);
-  const { media, search_media, search_by_release } = state;
+  const { media, search_media, search_by_release, loading } = state;
 
   const setMedia = (media: IMedia[]) => {
     dispatch({
@@ -43,12 +40,20 @@ export const MediaProvider: React.FC<IProps> = ({ children }) => {
     });
   };
 
+  const loadMedia = () => {
+    dispatch({
+      type: actionConsts.MEDIA.LOADING,
+    });
+  };
+
   return (
     <MediaContext.Provider
       value={{
         setMedia,
         filterByDateAndTitle,
         searchMedia,
+        loadMedia,
+        loading,
         media,
         search_media,
         search_by_release,
