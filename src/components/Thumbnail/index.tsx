@@ -9,7 +9,7 @@ interface IProps {
 
 const Thumbnail: React.FC<IProps> = ({ title, url }) => {
   return (
-    <Link to={`/${url}`} className="thumbnail">
+    <Link to={`/${url}/1`} className="thumbnail">
       <div className="frame">
         <img src="/placeholder.png" alt="Movie sign" width="255px" />
         <h3>{title}</h3>

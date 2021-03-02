@@ -20,25 +20,29 @@ function App() {
             </MainLayout>
           )}
         />
-        <MediaProvider>
-          <Route
-            path="/movies"
-            render={() => (
+
+        <Route
+          path="/movies/:id"
+          render={() => (
+            <MediaProvider>
               <MainLayout>
                 <Movies />
               </MainLayout>
-            )}
-          />
+            </MediaProvider>
+          )}
+        />
 
-          <Route
-            path="/series"
-            render={() => (
+        <Route
+          path="/series/:id"
+          render={() => (
+            <MediaProvider>
               <MainLayout>
                 <Series />
               </MainLayout>
-            )}
-          />
-        </MediaProvider>
+            </MediaProvider>
+          )}
+        />
+
         <Route
           render={() => (
             <MainLayout>
