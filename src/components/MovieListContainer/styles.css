@@ -1,0 +1,14 @@
+.movie-list {
+  min-height: calc(100vh - 337px);
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-bottom: 62px;
+}
+
+@media only screen and (min-width: 420px) {
+  .movie-list {
+    /* TODO: space-between or start */
+    justify-content: space-between;
+  }
+}
