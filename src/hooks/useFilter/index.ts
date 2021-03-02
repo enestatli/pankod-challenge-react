@@ -4,10 +4,11 @@ import { MediaContext } from '../../providers/media/provider';
 import { callFetch } from '../../utils';
 
 const useFilter = () => {
+  const { filterByDateAndTitle, loadMedia } = useContext(MediaContext);
   const [query, setQuery] = useState('');
-  const { filterByDateAndTitle } = useContext(MediaContext);
 
   useEffect(() => {
+    loadMedia();
     if (query.length) {
       callFetch((data) => filterByDateAndTitle(data, query));
     } else {
@@ -16,8 +17,11 @@ const useFilter = () => {
   }, [query]);
 
   const handleChange = (e: any) => {
+    if (!e || e.target || e.target.value) {
+      return;
+    }
     const value = e.target.value;
-
+    loadMedia();
     switch (value) {
       case 'desc_year':
         return setQuery(value);
