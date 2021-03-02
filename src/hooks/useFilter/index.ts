@@ -17,11 +17,9 @@ const useFilter = () => {
   }, [query]);
 
   const handleChange = (e: any) => {
-    if (!e || e.target || e.target.value) {
-      return;
-    }
     const value = e.target.value;
     loadMedia();
+
     switch (value) {
       case 'desc_year':
         return setQuery(value);
